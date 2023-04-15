@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [sticky, setSticky] = useState(false);
   const [open, setOpen] = useState(false);
   const menuLinks = [
@@ -24,9 +24,10 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <h4 className="text-4xl uppercase font-bold">
+          {/* <h4 className="text-4xl uppercase font-bold">
             R<span className="text-cyan-600">ESU</span>ME
-          </h4>
+          </h4> */}
+          <button onClick={props.onClick} className="btn btn-outline btn-accent text-2xl">RESUME</button>
         </div>
         <div
           className={` ${

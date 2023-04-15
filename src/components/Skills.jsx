@@ -19,8 +19,8 @@ const Skills = () => {
     },
     {
       logo: "logo-react",
-      level: "Intermediate",
-      count: 80,
+      level: "Beginner",
+      count: 40,
     },
   ];
   return (
@@ -50,6 +50,32 @@ const Skills = () => {
             </div>
           ))}
         </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 py-20 px-20  items-center justify-center">
+            <div>
+            <progress className="progress progress-info w-8/12" value="400" max="400"></progress>
+            </div>
+
+            <div>
+            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            </div>
+            
+            <div>
+            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            </div>
+
+            <div>
+            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            </div>
+
+            <div>
+            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            </div>
+            <div>
+            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            </div>
+          </div>
+
       </div>
     </section>
   );

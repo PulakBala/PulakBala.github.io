@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/images/412.jpg";
+import Navbar from "./Navbar";
 const About = () => {
   const info = [
     { text: "Years experience", count: "04" },
@@ -7,7 +8,7 @@ const About = () => {
     { text: "Companies Work", count: "00" },
   ];
 
-  const handleDownloadClick =()=>{
+   const handleDownloadClick =()=>{
     const fileUrl = "/src/assets/cv.pdf";
     const link = document.createElement('a');
     link.href = fileUrl;
@@ -16,6 +17,7 @@ const About = () => {
     link.click();
     document.body.removeChild(link);
   }
+
 
   return (
     <section id="about" className="py-10 text-white">
@@ -60,6 +62,7 @@ const About = () => {
               />
             </div>
           </div>
+          <Navbar onClick={handleDownloadClick}/>
         </div>
       </div>
     </section>
