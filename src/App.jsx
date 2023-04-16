@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Bot from "./components/Bot";
+import SocialLinks from "./components/SocialLinks";
 
 const App = () => {
   return (
@@ -18,9 +19,10 @@ const App = () => {
       <About />
       <Skills />
       {/* <Hireme /> */}
-      <Project />
+      {/* <Project /> */}
       <Contact />
       <Footer />
+      <SocialLinks/>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import aboutImg from "../assets/images/412.jpg";
 import Navbar from "./Navbar";
 const About = () => {
   const info = [
-    { text: "Years experience", count: "04" },
+    { text: "Years experience", count: "01" },
     { text: "Completed Projects", count: "12" },
     { text: "Companies Work", count: "00" },
   ];
