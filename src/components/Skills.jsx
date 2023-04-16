@@ -51,31 +51,60 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 py-20 px-20  items-center justify-center">
-            <div>
-            <progress className="progress progress-info w-8/12" value="400" max="400"></progress>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-16 py-20 px-20  items-center justify-center">
+            <div className="border  py-10 bg-slate-900 rounded-full">
+            <div className="flex justify-center justify-around text-2xl pb-9">
+              <h2 className="border bg-cyan-600 font-bold p-2">HTML</h2>
+              <h2 className="border bg-cyan-600 p-2 rounded-lg">100%</h2>
             </div>
-
-            <div>
             <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
             </div>
+
+            <div className="border  py-10 bg-slate-900 rounded-full">
+            <div className="flex justify-center justify-around text-2xl pb-9">
+              <h2 className="border bg-cyan-600 font-bold p-2">CSS</h2>
+              <h2 className="border bg-cyan-600 p-2 rounded-lg">85%</h2>
+            </div>
+            <progress className="progress progress-info w-8/12" value="85" max="100"></progress>
+            </div>
+
             
-            <div>
-            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            <div className="border  py-10 bg-slate-900 rounded-full ">
+            <div className="flex  justify-center justify-around ml-5 text-2xl pb-9 w-11/12">
+              <h2 className="border bg-cyan-600 font-bold p-2 rounded-lg">BOOTSTRAP</h2>
+              <h2 className="border bg-cyan-600 p-2 rounded-lg ">8%</h2>
+            </div>
+            <progress className="progress progress-info w-8/12" value="80" max="100"></progress>
             </div>
 
-            <div>
-            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            <div className="border  py-10 bg-slate-900 rounded-full">
+            <div className="flex justify-center justify-around text-2xl pb-9">
+              <h2 className="border bg-cyan-600 font-bold p-2">TAILWIND</h2>
+              <h2 className="border bg-cyan-600 p-2 rounded-lg">90%</h2>
+            </div>
+            <progress className="progress progress-info w-8/12" value="90" max="100"></progress>
             </div>
 
-            <div>
-            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            <div className="border  py-10 bg-slate-900 rounded-full">
+            <div className="flex justify-center justify-around text-2xl pb-9">
+              <h2 className="border bg-cyan-600 font-bold p-2">JS</h2>
+              <h2 className="border bg-cyan-600 p-2 rounded-lg">70%</h2>
             </div>
-            <div>
-            <progress className="progress progress-info w-8/12" value="100" max="100"></progress>
+            <progress className="progress progress-info w-8/12" value="70" max="100"></progress>
             </div>
+
+
+            <div className="border  py-10 bg-slate-900 rounded-full">
+            <div className="flex justify-center justify-around text-2xl pb-9">
+              <h2 className="border bg-cyan-600 font-bold p-2">REACT</h2>
+              <h2 className="border bg-cyan-600 p-2 rounded-lg">75%</h2>
+            </div>
+            <progress className="progress progress-info w-8/12" value="75" max="100"></progress>
+            </div>
+
+
+
           </div>
-
       </div>
     </section>
   );
