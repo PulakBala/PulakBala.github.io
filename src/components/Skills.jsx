@@ -51,7 +51,7 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-16 py-20 px-20  items-center justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-16 p-12">
             <div className="border  py-10 bg-slate-900 md:rounded-full rounded-lg">
             <div className="flex justify-center justify-around text-2xl pb-9">
               <h2 className="border bg-cyan-600 font-bold p-2">HTML</h2>
@@ -70,9 +70,9 @@ const Skills = () => {
 
             
             <div className="border  py-10 bg-slate-900 md:rounded-full rounded-lg ">
-            <div className="flex  justify-center justify-around ml-5 text-2xl pb-9 w-11/12">
-              <h2 className="border bg-cyan-600 font-bold p-2 rounded-lg">BOOTSTRAP</h2>
-              <h2 className="border bg-cyan-600 p-2 rounded-lg ">8%</h2>
+            <div className="flex  justify-center justify-around ml-5 text-sm  md:text-2xl pb-9 w-11/12 ">
+              <h2 className="border bg-cyan-600  font-bold p-2 rounded-lg">BOOTSTRAP</h2>
+              <h2 className="border bg-cyan-600 p-2 rounded-lg ">80%</h2>
             </div>
             <progress className="progress progress-info w-8/12" value="80" max="100"></progress>
             </div>

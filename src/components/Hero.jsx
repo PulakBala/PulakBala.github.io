@@ -1,10 +1,10 @@
 import React from "react";
-import hero from "../assets/images/3472.jpg";
+import hero1 from "../assets/images/413-removebg-preview.png"
+
 const Hero = () => {
   const social_media = [
     "logo-instagram",
     "logo-facebook",
-    "logo-linkedin",
     "logo-twitter",
   ];
   return (
@@ -12,9 +12,13 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
-      <div className="flex-1 pt-20 flex items-center justify-center h-full">
-        <img src={hero} alt="" className="md:w-2/3 h-full object-cover bg-cyan-500 rounded-3xl" />
+      
+      <div className="flex-1 flex items-center justify-center mt-10">
+        <img src={hero1} alt="" className="md:w-2/3 h-full object-cover bg-cyan-500 rounded-3xl" />
+
+        
       </div>
+
       <div className="flex-1">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
@@ -28,7 +32,7 @@ const Hero = () => {
             Front-End Developer
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
-          {/* <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
+          <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((icon) => (
               <div
                 key={icon}
@@ -37,7 +41,7 @@ const Hero = () => {
                 <ion-icon name={icon}></ion-icon>
               </div>
             ))}
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

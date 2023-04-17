@@ -1,0 +1,16 @@
+.container{
+    width: 65%;
+    height: 120vh;
+    padding: 100px;
+    margin: auto;
+    margin-top: auto;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        height: 40vh;
+        padding: 0px;
+       
+    }
+}
+
